@@ -1,0 +1,10 @@
+[package]
+name = "tachyon-runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tachyon-notes = { path = "../tachyon-notes" }
+tachyon-fold = { path = "../tachyon-fold" }
+tachyon-wallets = { path = "../tachyon-wallets" }
+tachyon-adapters = { path = "../tachyon-adapters" }
