@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/tachyon-notes",
+  "crates/tachyon-fold",
+  "crates/tachyon-wallets",
+  "crates/tachyon-adapters",
+  "crates/tachyon-runtime",
+]
