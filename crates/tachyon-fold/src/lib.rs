@@ -18,3 +18,5 @@ impl Accumulator {
 pub fn verify(acc: &Accumulator) -> bool {
     acc.steps > 0
 }
+
+// steps == 0 is not a proof
