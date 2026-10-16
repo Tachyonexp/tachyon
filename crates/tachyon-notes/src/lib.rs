@@ -18,3 +18,5 @@ pub fn spend(note: &ShieldedNote) -> Nullifier {
     n[0] ^= 0xff;
     Nullifier(n)
 }
+
+// nullifier != cm
