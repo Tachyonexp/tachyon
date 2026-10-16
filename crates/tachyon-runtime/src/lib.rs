@@ -18,3 +18,5 @@ pub fn run(plan: Plan) -> Accumulator {
     acc.fold(&r.digest, &plan.intent);
     acc
 }
+
+// proof before value
