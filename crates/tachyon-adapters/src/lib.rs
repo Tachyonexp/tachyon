@@ -23,3 +23,4 @@ pub fn zcash_step(intent: &[u8; 32]) -> Receipt {
 }
 
 // no calldata dump
+// digest only
